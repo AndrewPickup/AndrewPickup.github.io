@@ -1,0 +1,98 @@
+body {
+	background-image: url(../images/bg.jpg);
+	background-size: 100% auto;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;  
+
+}
+
+
+.main {
+	box-shadow: 0px 0px 10px 10px orange;
+	background-color: rgba(255,255,255,0.8);
+	width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	text-shadow: 0px 0px 50px yellow;
+	border-bottom: 2px dotted black;
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 0px 0px 50px yellow;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 5px; 
+	text-align: center; 
+}
+
+img {
+	width: 400px;
+	margin: 0 auto; /* These two lines center an image*/
+	display: block;
+	border: 40px solid black;
+	border-radius: 50% 0 25% 10%;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	cursor: pointer;
+	margin-bottom: 0;
+
+}
+h3:hover {
+	color: yellow;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	cursor: pointer;
+	margin-bottom: 0;
+
+}
+
+h3:hover {
+	color: yellow; 
+
+}
+p,
+ol,
+ul{
+	line-height: 2;
+	list-style: none;
+	padding-left: 0;
+
+}
+
+a{
+	color: blue;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color:	yellow;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.facebook {
+	color: blue;
+}
+
+.twitter {
+	color: #52E8FF;
+}
+.instagram {
+	color: #88B8BF;
+}
